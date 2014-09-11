@@ -26,13 +26,26 @@
 - (instancetype)initWithCoder:(NSCoder *)aDecoder
 {
     if (self = [super initWithCoder:aDecoder]) {
-        _characterAnimationDelays = [[NSMutableArray alloc] init];
-        _characterAnimationDuration = [[NSMutableArray alloc] init];
-        _displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateAttributedString)];
-        _displayLink.paused = YES;
-        [_displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
+        [self commonInit];
     }
     return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame
+{
+    if (self = [super initWithFrame:frame]) {
+        [self commonInit];
+    }
+    return self;
+}
+
+- (void)commonInit
+{
+    _characterAnimationDelays = [[NSMutableArray alloc] init];
+    _characterAnimationDuration = [[NSMutableArray alloc] init];
+    _displayLink = [CADisplayLink displayLinkWithTarget:self selector:@selector(updateAttributedString)];
+    _displayLink.paused = YES;
+    [_displayLink addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSRunLoopCommonModes];
 }
 
 - (void)updateAttributedString
