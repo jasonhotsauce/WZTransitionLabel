@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5CBDD7F19C17B0800FF8FDB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CBDD7E19C17B0800FF8FDB /* main.m */; };
+		F5CBDD8219C17B0800FF8FDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CBDD8119C17B0800FF8FDB /* AppDelegate.m */; };
+		F5CBDD8519C17B0800FF8FDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CBDD8419C17B0800FF8FDB /* ViewController.m */; };
+		F5CBDD8A19C17B0800FF8FDB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5CBDD8919C17B0800FF8FDB /* Images.xcassets */; };
+		F5CBDD8D19C17B0800FF8FDB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5CBDD8B19C17B0800FF8FDB /* LaunchScreen.xib */; };
+		F5CBDD9919C17B0800FF8FDB /* WZTransitionLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CBDD9819C17B0800FF8FDB /* WZTransitionLabelTests.m */; };
+		F5CBDDA419C17B3800FF8FDB /* WZTransitionLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = F5CBDDA319C17B3800FF8FDB /* WZTransitionLabel.m */; };
+		F5CBDDA619C17BD000FF8FDB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5CBDDA519C17BD000FF8FDB /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F5CBDD9319C17B0800FF8FDB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F5CBDD7119C17B0800FF8FDB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5CBDD7819C17B0800FF8FDB;
+			remoteInfo = WZTransitionLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F5CBDD7919C17B0800FF8FDB /* WZTransitionLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZTransitionLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CBDD7D19C17B0800FF8FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CBDD7E19C17B0800FF8FDB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F5CBDD8019C17B0800FF8FDB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F5CBDD8119C17B0800FF8FDB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F5CBDD8319C17B0800FF8FDB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F5CBDD8419C17B0800FF8FDB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F5CBDD8919C17B0800FF8FDB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F5CBDD8C19C17B0800FF8FDB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F5CBDD9219C17B0800FF8FDB /* WZTransitionLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WZTransitionLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5CBDD9719C17B0800FF8FDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5CBDD9819C17B0800FF8FDB /* WZTransitionLabelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WZTransitionLabelTests.m; sourceTree = "<group>"; };
+		F5CBDDA219C17B3800FF8FDB /* WZTransitionLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZTransitionLabel.h; sourceTree = "<group>"; };
+		F5CBDDA319C17B3800FF8FDB /* WZTransitionLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZTransitionLabel.m; sourceTree = "<group>"; };
+		F5CBDDA519C17BD000FF8FDB /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5CBDD7619C17B0800FF8FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CBDD8F19C17B0800FF8FDB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5CBDD7019C17B0800FF8FDB = {
+			isa = PBXGroup;
+			children = (
+				F5CBDD7B19C17B0800FF8FDB /* WZTransitionLabel */,
+				F5CBDD9519C17B0800FF8FDB /* WZTransitionLabelTests */,
+				F5CBDD7A19C17B0800FF8FDB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5CBDD7A19C17B0800FF8FDB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5CBDD7919C17B0800FF8FDB /* WZTransitionLabel.app */,
+				F5CBDD9219C17B0800FF8FDB /* WZTransitionLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5CBDD7B19C17B0800FF8FDB /* WZTransitionLabel */ = {
+			isa = PBXGroup;
+			children = (
+				F5CBDD8019C17B0800FF8FDB /* AppDelegate.h */,
+				F5CBDD8119C17B0800FF8FDB /* AppDelegate.m */,
+				F5CBDD8319C17B0800FF8FDB /* ViewController.h */,
+				F5CBDD8419C17B0800FF8FDB /* ViewController.m */,
+				F5CBDDA219C17B3800FF8FDB /* WZTransitionLabel.h */,
+				F5CBDDA319C17B3800FF8FDB /* WZTransitionLabel.m */,
+				F5CBDDA519C17BD000FF8FDB /* Main.storyboard */,
+				F5CBDD8919C17B0800FF8FDB /* Images.xcassets */,
+				F5CBDD8B19C17B0800FF8FDB /* LaunchScreen.xib */,
+				F5CBDD7C19C17B0800FF8FDB /* Supporting Files */,
+			);
+			path = WZTransitionLabel;
+			sourceTree = "<group>";
+		};
+		F5CBDD7C19C17B0800FF8FDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5CBDD7D19C17B0800FF8FDB /* Info.plist */,
+				F5CBDD7E19C17B0800FF8FDB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F5CBDD9519C17B0800FF8FDB /* WZTransitionLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				F5CBDD9819C17B0800FF8FDB /* WZTransitionLabelTests.m */,
+				F5CBDD9619C17B0800FF8FDB /* Supporting Files */,
+			);
+			path = WZTransitionLabelTests;
+			sourceTree = "<group>";
+		};
+		F5CBDD9619C17B0800FF8FDB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5CBDD9719C17B0800FF8FDB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5CBDD7819C17B0800FF8FDB /* WZTransitionLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CBDD9C19C17B0800FF8FDB /* Build configuration list for PBXNativeTarget "WZTransitionLabel" */;
+			buildPhases = (
+				F5CBDD7519C17B0800FF8FDB /* Sources */,
+				F5CBDD7619C17B0800FF8FDB /* Frameworks */,
+				F5CBDD7719C17B0800FF8FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZTransitionLabel;
+			productName = WZTransitionLabel;
+			productReference = F5CBDD7919C17B0800FF8FDB /* WZTransitionLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F5CBDD9119C17B0800FF8FDB /* WZTransitionLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5CBDD9F19C17B0800FF8FDB /* Build configuration list for PBXNativeTarget "WZTransitionLabelTests" */;
+			buildPhases = (
+				F5CBDD8E19C17B0800FF8FDB /* Sources */,
+				F5CBDD8F19C17B0800FF8FDB /* Frameworks */,
+				F5CBDD9019C17B0800FF8FDB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F5CBDD9419C17B0800FF8FDB /* PBXTargetDependency */,
+			);
+			name = WZTransitionLabelTests;
+			productName = WZTransitionLabelTests;
+			productReference = F5CBDD9219C17B0800FF8FDB /* WZTransitionLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5CBDD7119C17B0800FF8FDB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Wenbin Zhang";
+				TargetAttributes = {
+					F5CBDD7819C17B0800FF8FDB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					F5CBDD9119C17B0800FF8FDB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = F5CBDD7819C17B0800FF8FDB;
+					};
+				};
+			};
+			buildConfigurationList = F5CBDD7419C17B0800FF8FDB /* Build configuration list for PBXProject "WZTransitionLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5CBDD7019C17B0800FF8FDB;
+			productRefGroup = F5CBDD7A19C17B0800FF8FDB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5CBDD7819C17B0800FF8FDB /* WZTransitionLabel */,
+				F5CBDD9119C17B0800FF8FDB /* WZTransitionLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5CBDD7719C17B0800FF8FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CBDDA619C17BD000FF8FDB /* Main.storyboard in Resources */,
+				F5CBDD8D19C17B0800FF8FDB /* LaunchScreen.xib in Resources */,
+				F5CBDD8A19C17B0800FF8FDB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CBDD9019C17B0800FF8FDB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5CBDD7519C17B0800FF8FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CBDD8519C17B0800FF8FDB /* ViewController.m in Sources */,
+				F5CBDD8219C17B0800FF8FDB /* AppDelegate.m in Sources */,
+				F5CBDDA419C17B3800FF8FDB /* WZTransitionLabel.m in Sources */,
+				F5CBDD7F19C17B0800FF8FDB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5CBDD8E19C17B0800FF8FDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5CBDD9919C17B0800FF8FDB /* WZTransitionLabelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F5CBDD9419C17B0800FF8FDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F5CBDD7819C17B0800FF8FDB /* WZTransitionLabel */;
+			targetProxy = F5CBDD9319C17B0800FF8FDB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F5CBDD8B19C17B0800FF8FDB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5CBDD8C19C17B0800FF8FDB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5CBDD9A19C17B0800FF8FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5CBDD9B19C17B0800FF8FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5CBDD9D19C17B0800FF8FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZTransitionLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5CBDD9E19C17B0800FF8FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WZTransitionLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F5CBDDA019C17B0800FF8FDB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WZTransitionLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZTransitionLabel.app/WZTransitionLabel";
+			};
+			name = Debug;
+		};
+		F5CBDDA119C17B0800FF8FDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = WZTransitionLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WZTransitionLabel.app/WZTransitionLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5CBDD7419C17B0800FF8FDB /* Build configuration list for PBXProject "WZTransitionLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CBDD9A19C17B0800FF8FDB /* Debug */,
+				F5CBDD9B19C17B0800FF8FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5CBDD9C19C17B0800FF8FDB /* Build configuration list for PBXNativeTarget "WZTransitionLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CBDD9D19C17B0800FF8FDB /* Debug */,
+				F5CBDD9E19C17B0800FF8FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F5CBDD9F19C17B0800FF8FDB /* Build configuration list for PBXNativeTarget "WZTransitionLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5CBDDA019C17B0800FF8FDB /* Debug */,
+				F5CBDDA119C17B0800FF8FDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5CBDD7119C17B0800FF8FDB /* Project object */;
+}
