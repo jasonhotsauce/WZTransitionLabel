@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "WZTransitionLabel"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "WZTransitionLabel is a subclass of UILabel that provide custom transition when switching label's text."
 
   s.homepage     = "https://github.com/jasonhotsauce/WZTransitionLabel"
